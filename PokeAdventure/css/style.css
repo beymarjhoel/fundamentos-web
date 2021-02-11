@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* MENU ============================================== */
+.titulo {
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+}
+
+#menu ul {
+    background-color: rgb(255, 0, 0);
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    /* alteração da altura e largura do menu */
+    padding: 15px 40px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: rgb(194, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+}
+/* SECTION-1 ======================================================= */
+.section-1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.wh {
+    width: 500px;
+    height: 300px;
+}
+
+.texto {
+    margin: 20px;
+}
+
+.texto-titulo {
+    text-align: center;
+}
+/* SECTION-2 =============================================== */
+.section-2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+/* SECTION-3 ============================================== */
+.section-3 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SECTION-4 ============================================== */
+
+.texto-video {
+    text-align: center;
+    font-size: 35px;
+}
+
+.video {
+    padding-left: 400px;
+}
+
+/* FOOTER ================================================= */
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 50px;
+}
+
+footer p {
+    padding: 10px;   
+}
+
+form {
+    text-align: center;
+}

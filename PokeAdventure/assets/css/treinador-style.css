@@ -1,0 +1,64 @@
+/* GLOBAL ======================================================= */
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("../img/background-treinador.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* MENU ========================================================= */
+#menu ul {
+    background-color: rgb(255, 0, 0);
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    /* alteração da altura e largura do menu */
+    padding: 15px 40px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: rgb(194, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+/* FORM-REGISTER ================================================ */
+form {
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+form input {
+    border-radius: 0.5rem;
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 10rem;
+    height: 50px;
+}
+
+footer p {
+    padding: 10px;
+}

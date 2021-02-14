@@ -39,7 +39,7 @@ form {
 
 .titulo {
     text-align: center;
-    margin: 10px;
+    margin: 15px;
     font-size: 40px;
     color: white;
 }
@@ -47,16 +47,43 @@ form {
 form input {
     border-radius: 0.5rem;
     border: none;
+    /* centraliza os placeholders */
     text-align: center;
     font-size: 1.2rem;
+    margin: 10px;
+    outline: none;
+    width: 18em;
 }
 
+/* BOTAO =================================================================== */
+.botao {
+    cursor: pointer;
+    padding: 3px 75px;
+    background-image:linear-gradient(to top, red, rgb(111, 0, 255));
+    color: white;
+}
+
+.botao:hover {
+    background-image:linear-gradient(to top, rgb(111, 0, 255), red);
+    color: white;
+}
+
+/* VALIDA ================================================================== */
+
+form #txtNome {
+    padding: 0.2px;
+}
+
+/* FOOTER ================================================================== */
+/* Para fixar em baixo */
 footer {
     text-align: center;
     background-color: black;
     color: white;
-    margin-top: 10rem;
-    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 footer p {

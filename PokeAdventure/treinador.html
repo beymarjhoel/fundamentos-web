@@ -22,12 +22,17 @@
 
     <form>
         <h1 class="titulo"> Cadastro do Treinador </h1>
-        <input type="text" id="nome" placeholder="Nome Completo" required><br><br>
-        <input type="password" id="senha" placeholder="Senha" required><br><br>
-        <input type="email" id="email" placeholder="E-mail" required><br><br>
-        <input type="text"id="endereco" placeholder="Endereço" required><br><br>
-        <input type="text" id="celular" placeholder="Celular" required><br><br>
-        <input type="submit" onclick="enviar()" value="Registrar">
+        <input type="text" id="nome" placeholder="Nome Completo" onkeyup="validaNome()" required><br>
+        <div id="txtNome"></div>
+        <input type="password" id="senha" placeholder="Senha" onkeyup="validaSenha()" required><br>
+        <div id="txtSenha"></div>
+        <input type="password" id="confirmarSenha" placeholder="Confirmar Senha" onkeyup="validaConfirmarSenha()" required><br>
+        <div id="txtConfirmarSenha"></div>
+        <input type="email" id="email" placeholder="E-mail" onkeyup="validaEmail()" required><br>
+        <div id="txtEmail"></div>
+        <input type="text"id="cpf" placeholder="CPF" onkeyup="validaCpf()" required><br>
+        <div id="txtCpf"></div>
+        <input type="submit" class="botao" value="Registrar">
     </form>
 
     <footer>    

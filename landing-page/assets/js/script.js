@@ -6,7 +6,7 @@ function validaEmail() {
     let txt = document.querySelector('#txtEmail')
     //O método indexOf() verifica se tem algo na variável, se for true retorna 1, se for false retorna -1
     if (email.value.indexOf('@') == -1) {
-        txt.innerHTML = 'E-mail válido'
+        txt.innerHTML = 'E-mail inválido'
         txt.style.color = 'white'
         txt.style.backgroundColor = '#f50f1a'
     } else {
